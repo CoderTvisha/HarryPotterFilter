@@ -1,0 +1,25 @@
+body{
+    background-image: url('bg1.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-size: 25px !important;
+    color: #FFC500;
+}
+
+#ssbtn:hover{
+    background-color:#7F0909;
+    color: #FFC500;
+}
+canvas{
+    margin-top: 100px;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+    from {box-shadow: 1px 1px 25px #7F0909;}
+    to {box-shadow: 1px 1px 25px #FFC500;}
+}
